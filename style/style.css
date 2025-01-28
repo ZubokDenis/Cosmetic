@@ -1,0 +1,349 @@
+@charset "UTF-8";
+ul {
+  list-style-type: none;
+}
+
+button {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: end;
+  margin-top: 40px;
+  margin-bottom: 96px;
+}
+.menu ul {
+  display: flex;
+}
+.menu ul li {
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.52px;
+  color: #2A2940;
+  margin-right: 46px;
+}
+.menu ul li:last-child {
+  margin-right: 56px;
+}
+.menu button {
+  font-family: Roboto;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 8px 20px;
+  background: #FE0000;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.banner {
+  display: flex;
+  margin-bottom: 50px;
+}
+.banner__images {
+  display: flex;
+  position: relative;
+}
+.banner .product1 img {
+  border-top: 2px solid #fa930a;
+  border-radius: 210px;
+  padding-top: 10px;
+  margin-right: 31px;
+}
+.banner .product2 {
+  position: relative;
+  border: 2px solid #fa930a;
+  border-radius: 210px;
+  width: 193px;
+  height: 344px;
+  padding-right: 14px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  right: -224px;
+}
+.banner .product2 .svg-1 {
+  position: absolute;
+  top: -165px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.banner__text {
+  margin-left: 333px;
+  position: relative;
+}
+.banner__text h1 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #2a2940;
+  max-width: 473px;
+  margin-bottom: 18px;
+}
+.banner__text h1 span {
+  color: #ffa41c;
+}
+.banner__text p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 167%;
+  color: #545465;
+  max-width: 473px;
+  margin-bottom: 30px;
+}
+.banner__text a {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 125%;
+  text-transform: capitalize;
+  text-decoration: underline;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #fe0000;
+  margin-bottom: 47px;
+}
+.banner__text .text-svg-1 {
+  position: absolute;
+  top: 45px;
+  right: 0;
+}
+.banner__text .text-svg-2 {
+  position: absolute;
+  right: -130px;
+  bottom: 280px;
+}
+.banner__pagination {
+  display: flex;
+  left: -40px;
+  position: absolute;
+  bottom: -40px;
+  align-items: center;
+}
+.banner__pagination ul {
+  display: flex;
+  align-items: center;
+  margin-right: 400px;
+}
+.banner__pagination ul .active .inner-circle {
+  width: 6px; /* Внутренний круг */
+  height: 6px;
+  background-color: red;
+  border-radius: 50%;
+}
+.banner__pagination ul .active .outer-circle {
+  width: 22px; /* Внешний круг */
+  height: 22px;
+  border: 1px solid red;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner__pagination ul li {
+  margin-right: 14px;
+}
+.banner__pagination ul li .inner-circle {
+  border-radius: 100%;
+  background-color: #8d95b2;
+  width: 6px;
+  height: 6px;
+}
+.banner__pagination ul li:last-child {
+  margin-right: 0;
+}
+.banner__pagination .arrow {
+  display: flex;
+  position: relative;
+  right: 63px;
+}
+.banner__pagination .arrow .arrow-1 {
+  margin-right: -50px;
+}
+
+.add {
+  margin-bottom: 110px;
+  display: flex;
+}
+.add__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 45px;
+  padding-left: 38px;
+  padding-right: 58px;
+  margin-right: 40px;
+  border-radius: 5px;
+  width: 400px;
+  height: 217px;
+  background: #ffeef1;
+  box-sizing: border-box;
+}
+.add__item:last-child {
+  margin-right: 0;
+  padding-right: 44px;
+}
+.add__item:nth-child(2) img {
+  position: relative;
+  bottom: -15px;
+  right: -48px;
+}
+.add__item:nth-child(2) a {
+  bottom: 25px;
+  position: relative;
+}
+.add__text h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 125%;
+  text-transform: capitalize;
+  color: #2a2940;
+  margin-bottom: 6px;
+}
+.add__text p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 187%;
+  text-transform: lowercase;
+  color: #545465;
+  margin-bottom: 27px;
+}
+.add__text a {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  text-transform: capitalize;
+  text-decoration: underline;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #2a2940;
+}
+
+.service {
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.service img {
+  border-radius: 5px;
+  width: 439px;
+  height: 455px;
+}
+.service img:last-child {
+  width: 398px;
+  height: 546px;
+}
+.service__info {
+  display: flex;
+  flex-direction: column;
+}
+.service__info h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 133%;
+  text-transform: capitalize;
+  color: #2a2940;
+  max-width: 517px;
+  margin-bottom: 20px;
+}
+.service__info h2 span {
+  color: #ffa41c;
+}
+.service__info p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 167%;
+  color: #545465;
+  margin-bottom: 40px;
+  max-width: 473px;
+}
+.service__info button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 167%;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 13px 29px;
+  padding-left: 49px;
+  max-width: 180px;
+  border-radius: 50px;
+  background: #fe0000;
+  margin-bottom: 60px;
+}
+.service__info img {
+  margin: 0 auto;
+  width: 330px !important;
+  height: 335px !important;
+}
+
+.products__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.products__title h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 125%;
+  text-transform: capitalize;
+  color: #2a2940;
+}
+.products__title ul {
+  padding: 8px 25px;
+  border: 1px solid #ffa41c;
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+}
+.products__title ul li {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  text-transform: capitalize;
+  text-align: center;
+  color: #545465;
+  margin-right: 75px;
+}
+.products__title ul li:last-child {
+  margin-right: 0;
+}
+.products__title ul .active-tab {
+  border-radius: 39px;
+  padding: 6px 40px;
+  background: #fa930a;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
