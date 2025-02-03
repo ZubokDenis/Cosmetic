@@ -72,6 +72,8 @@ body {
   border-radius: 210px;
   padding-top: 10px;
   margin-right: 31px;
+  width: 313px;
+  height: 558px;
 }
 .banner .product2 {
   position: relative;
@@ -84,6 +86,11 @@ body {
   right: 0;
   bottom: 0;
   right: -224px;
+}
+.banner .product2 img {
+  border-radius: 210px;
+  width: 193px;
+  height: 346px;
 }
 .banner .product2 .svg-1 {
   position: absolute;
@@ -185,6 +192,10 @@ body {
 }
 .banner__pagination .arrow .arrow-1 {
   margin-right: -50px;
+  cursor: pointer;
+}
+.banner__pagination .arrow .arrow-2 {
+  cursor: pointer;
 }
 
 .add {
@@ -331,6 +342,7 @@ body {
   display: flex;
 }
 .products__title ul li {
+  cursor: pointer;
   font-family: "Noto Sans", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -502,6 +514,8 @@ body {
 }
 .review .review-1 img {
   margin-bottom: 25px;
+  width: 510px;
+  height: 504px;
 }
 .review .review-1 .review-svg {
   position: absolute;
@@ -686,4 +700,16 @@ footer .about li {
 }
 footer .about li:last-child {
   margin-right: 0;
+}
+
+.prev1 {
+  cursor: pointer;
+}
+
+.next1 {
+  cursor: pointer;
+}
+
+.zigzag {
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
